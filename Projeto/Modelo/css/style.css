@@ -1,0 +1,70 @@
+*{margin:0;padding:0;box-sizing:border-box;font-family:Arial, Helvetica, sans-serif;}
+
+body {
+    background-color: rgb(160, 31, 138); height: 100pc; width: 100%;    
+}
+
+nav {
+     margin-top: 200px;
+     margin-left:50px;
+}
+
+.menu{
+    list-style:none;
+    border:1px solid #09ffff;
+    float:left;
+    background-color: rgb(15, 15, 15);
+/*movimentação do menu */    
+    margin-top: 120px;
+    margin-left: 300px;
+    }
+.menu li {
+    position:relative; /* ele está sendo utilizado para que jajá o submenu apareça */
+    border-right:1px solid #c0c0c0;
+    display: inline-flex;
+}
+.menu li a { /* cores das letras por estar com <a></a> */
+    color:white;
+    text-decoration: none;
+    padding: 8px 10px;
+    display: block;
+}
+.menu li a:hover { /* não sei a definição correta mas são os estilos de quando você passa o mouse por cima */
+background: turquoise;
+
+}
+.menu li ul { /* submenu */
+    position:absolute;
+/* posição de aonde a caixa do submenu parece */
+    top:25px; 
+    left:0;
+/* ------ Fim ------ */
+
+background-color:rgb(161, 105, 40);
+display:none;
+}
+
+.menu li:hover ul, .menu li.over ul{display:block;} /* fazer aparecer o menu */
+
+.menu li ul li{
+    border:1px solid #c0c0c0;
+    display:block;
+    width:150px;
+    }
+
+
+section{
+    width: 100%;
+    height: 160pc;
+    background-color: white;
+    margin-top:300px;
+    position:absolute;
+}
+
+.conteudo-site {
+    background-color: black;
+    height: 800px;
+    width: 300px;
+    position:absolute
+
+}

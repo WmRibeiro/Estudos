@@ -1,0 +1,90 @@
+@charset "UTF-8";
+
+@import url('https://fonts.googleapis.com/css2?family=Nothing+You+Could+Do&display=swap');
+
+
+*{
+    padding: 0;
+    margin: 0;
+}
+
+body{
+    background-color: #010712;
+    
+    height: 2000px;
+}
+
+header{
+height: 300px;
+width: 100%;
+background-color: #1C1F26;
+}
+
+nav{
+    background-color: #961227;
+    height: 80px;
+    width: 100%;
+}
+nav > ul {
+   list-style: none;
+   display: inline;
+   
+   
+}
+
+nav > ul > li {
+    display: inline-block;
+    padding-left:20px ;
+    margin:25px;
+}
+
+nav > ul > li > a {
+    text-decoration: none;
+    text-align: center;
+    padding: 20px;
+    color:white;
+    font-size:20px;
+    font-weight: bolder;
+}
+nav > ul > li > a:hover {
+    color:#1C1F26;
+}
+
+main {
+   
+    background-color: #1C1F26;
+    height: 1200px;
+    width: auto;
+    margin: 5px;
+}
+
+main > article {
+display: ;
+}
+
+main > article > h1 {
+    text-align: center;
+    padding-top: 30px;
+    color: #F7E2AD;
+    font-size: 70px;
+    font-family: 'Nothing You Could Do', cursive;
+}
+
+main > article > h2 {
+    color: #cebb8d;
+    padding-bottom: 20px;
+}
+
+main > article > p {
+    text-align: center;
+    font-size: larger;
+    color: white;
+    padding-top: 20px;
+    padding-bottom:20px;
+}
+main > article > img {
+    height: 350px;
+    position: relative;
+    margin-left: 25%;
+    padding-top: 50px;
+}
