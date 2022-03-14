@@ -1,0 +1,36 @@
+@charset "UTF-8";
+
+/*
+
+em HTML é id = em CSS é #
+em HTML é class = em CSS é .
+
+*/
+
+body{
+    background-color: rgb(94, 180, 152);
+    font-family: Arial, Helvetica, sans-serif;
+
+}
+
+.hgeral{
+    text-align: Center;
+    background-color: rgb(52, 109, 90);
+
+}
+.hgeral:hover {
+    color: azure;
+    background-color: rgb(6, 61, 43);
+}
+
+.geral {
+    color: aquamarine;
+}
+
+h1 {
+    color:rgb(20, 49, 40);
+}
+
+h2{
+    color:rgb(40, 87, 71);
+}

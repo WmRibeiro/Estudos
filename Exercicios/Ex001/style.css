@@ -1,0 +1,24 @@
+@charset "UTF-8";
+
+
+body {
+    background-color: rgb(150, 149, 149);
+    display:grid;
+    place-items:center;
+    height: 100vh;
+}
+
+.box {
+    height: 300px;
+    width: 300px;
+    background-color:white;
+
+   
+}
+
+.box:hover {
+
+    box-shadow: 5px 6px 20px blue;
+
+   
+}

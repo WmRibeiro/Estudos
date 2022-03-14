@@ -1,0 +1,30 @@
+@charset "UTF-8";
+*{margin:-0;padding:0;}
+body {
+
+width: 100%;
+height: 1200px;
+background-color:#F2DDD0;
+}
+
+
+main {
+    margin: auto; 
+    width: 1450px;
+    height: 1000px;
+    padding:10px;
+    background-color:#F2DDD0;
+}
+
+header {
+    background-color: #26211D;
+    height: 150px;    
+}
+section{
+    background-color: white;
+    height: 2000px;   
+}
+footer {
+    background-color: #26211D;
+    height: 250px;    
+}
